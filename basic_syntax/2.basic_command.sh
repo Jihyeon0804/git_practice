@@ -66,3 +66,11 @@ git tag 태그버전명(v1.1)
 git push orgin 태그버전명
 # 태그 목록 조회
 git tag
+
+
+# 브랜치 생성
+# 현재 checkout 되어있는 브랜치를 기준으로 새로운 브랜치 생성
+git branch 브랜치명
+
+# 새로운 작업 시작 시에, main을 최신화 한 후에 main을 기준으로 branch 생성
+# git pull origin main 후에 branch 생성하라는 뜻
