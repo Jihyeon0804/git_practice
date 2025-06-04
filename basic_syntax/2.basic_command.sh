@@ -30,3 +30,17 @@ git checkout 커밋ID
 git checkout 브랜치명
 # branch 생성 후 전환
 git checkout -b main # b : 해당 브랜치가 없다면 만들고 main으로 전환
+
+# pull은 원격 변경 사항을 local로 내려받는 것 (fetch + merge)
+git pull origin main
+
+# fetch는 변경 사항을 local로 가져오되, 병합은 하지 않는 것
+git fetch origin main
+# 만약 모든 브랜치의 변경 사항을 가져오려면
+git fetch --all
+
+# diff : 버전별(commit 간) 비교 명령어
+git diff commitID1 commit2ID1
+git diff 브랜치1 브랜치2
+
+# commit 취소
